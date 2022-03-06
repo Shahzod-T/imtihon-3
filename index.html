@@ -6,35 +6,118 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/main.css">
-  <title>17-dars</title>
+  <title>imthon-3</title>
 </head>
 
 <body>
   
-  <header class="site__header">
+  <header class="site-header header">
     <div class="container">
-      <div class="site__header__inner"></div>
+      <div class="header__inner">
+        
+        <img src="./images/site-logo.svg" alt="site-logo">
+        
+        <div class="header__info">
+          <nav class="header__navbar">
+            <ul class="header__list">
+              <li class="header__list__item"><span class="header__buttons">Services</span></li>
+              <li class="header__list__item">Portfolio</li>
+              <li class="header__list__item">About us</li>
+              
+            </ul>
+          </nav>
+        </div>
+        
+        <div class="header__button"> Uz Ru <span class="header__buttons">En</span></div>
+        
+      </div>
     </div>
   </header>
-
-  <main class="site__main">
-
+  
+  <main class="site-main">
+    
     <section class="hero">
       <div class="container">
-        <div class="hero__inner"></div>
+        <div class="hero__inner">
+          
+          
+          
+          <div class="hero__box">
+            
+            <form class="hero__form form" action="#">
+              
+              <label class="form__label">
+                Ism Familiya
+                <input class="form__input__user" type="text" placeholder="Ismingini kiriting" aria-label="Ismingini kiriting" required >
+                
+              </label>
+              
+              <label class="form__label">
+                Companiyani kiriting
+                <input class="form__input__company" type="text" placeholder="Companiya" aria-label="Companiya" required>
+                
+              </label>
+              
+              <label class="form__label">
+                Telegram username
+                <input class="form__input__name" type="text" placeholder="Username" aria-label="Username"required >
+                
+              </label>
+              
+              <label class="form__label">
+                Phone number
+                <input class="form__input__name" type="number" placeholder="+998 99" aria-label="tel" required >
+                
+              </label>
+              
+              <label  class="form__label">
+                Sayni turini tanlang
+                <select  class="form__select"name="select" placeholder="Corparative sayt" required>
+                  <option value="1">Corparative sayt</option>
+                </select>
+              </label>
+              
+              <label  class="form__label">
+                Sizga bo’glanish usulini tanlang
+                <select  class="form__select"name="select" placeholder="Corparative sayt" required>
+                  <option value="1">Telegram</option>
+                </select>
+              </label>
+              
+              <textarea class="form__textarea" name="texarea"  cols="85" rows="10" >
+                
+                
+              </textarea>
+              
+              <button class="form__button">Jo’natish</button>
+              
+              
+            </form>
+            
+          </div>
+          
+          
+          <div class="hero__info ">
+            <h1 class="hero__title">Ux & Ui design</h1>
+            <p class="hero__text">In the current tech scenario, one can’t predict what device their user will use to interact with a product. This is why it’s always a good idea to build something that supports all devices. However it is nearly impossible to design for every screen size with so many .</p>
+          </div>
+          
+          
+          
+        </div>
       </div>
     </section>
-
-
+    
+    
   </main>
-
-
+  
+  
   <footer class="site__footer container">
     <div class="site__footer__inner"></div>
   </footer>
   
-
-
+  
+  
   
 </body>
 
